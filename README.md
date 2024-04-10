@@ -13,9 +13,7 @@ A dirty read occurs when one transaction reads data that has been modified by an
 To make this work we should also set the isolation level read uncommited.
 
 Tried to reproduce, have some problems. 
-![Screenshot 2024-04-10 at 15 37 56](https://github.com/mmrshk/isolation_and_locks_test/assets/31416671/b02f08b0-e84a-4cd6-ba0b-0253e6f0b6c1)
-![Screenshot 2024-04-10 at 15 37 08](https://github.com/mmrshk/isolation_and_locks_test/assets/31416671/248b4b8f-952f-4a82-9114-e9f044e97356)
-
+<img width="721" alt="Screenshot 2024-04-10 at 15 42 30" src="https://github.com/mmrshk/isolation_and_locks_test/assets/31416671/8cd78bac-672d-4e7a-846b-bcce596af413">
 
 ### Non-repeatable Read
 A non-repeatable read occurs when a transaction reads the same data multiple times within a single transaction but gets different results due to updates by other transactions in between.
